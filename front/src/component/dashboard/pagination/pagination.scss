@@ -1,0 +1,41 @@
+.pagination{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 20px;
+
+.button_prev_next{
+    
+display: flex;
+align-items: center;
+padding: 5px;
+background: #BFD732;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.container_page{
+display: flex;
+gap: 10px; 
+
+.number_page{
+
+border: rgb(181, 176, 176) solid 1px;
+border-radius: 5px;
+color: #444444;
+font-family: "Heebo";
+font-style: normal;
+font-weight: 900;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.active{
+background: #BFD732;
+  }
+ }
+}

@@ -1,0 +1,147 @@
+
+.avatar {
+
+position: absolute;
+top: -80px;
+right: 23px;
+
+.image-item {
+display: flex;
+flex-direction: column;
+margin: 10px 0;
+}
+.image-item__btn-wrapper {
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+button {
+height: 40px;
+}
+
+.upload__image-wrapper{
+border-radius: 50px;
+
+
+.add{
+position: absolute;
+bottom: 0px;
+right: 0px;
+background: none;
+border: none;
+
+.add_icon{
+color:rgb(167, 214, 158);
+font-size: 45px;
+cursor: pointer;
+}
+}
+
+
+.remove{
+position: absolute;
+bottom: 0px;
+right: 4px;
+background: none;
+border: none;
+
+.remove{
+background: red;
+border-radius: 50%;
+padding: 0;
+color: rgb(232, 235, 233);
+font-size: 40px;
+cursor: pointer;
+}
+}
+
+
+
+}
+
+.upload__image-wrapper img{
+border: rgb(196, 232, 189) solid;
+border-radius: 50%;
+width: 180px;
+height: 180px;
+
+object-fit: cover;
+}
+
+
+
+}
+
+
+.formProfile{
+margin-top: 150px;
+.item{
+position: relative;
+
+.label{
+position: relative;
+top:0px;
+left: 0;
+background: none;
+border-radius: 0;
+
+display: flex;
+justify-content: flex-start;
+
+width: 100px;
+padding-left: 10px;
+}
+
+.input, .select{
+padding: 10px;
+border: none;
+outline: none;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 17px;
+}
+
+.select{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 17px;
+
+.label_select{
+border: red solid !important;
+}
+}
+
+
+
+.input:focus{
+border: none;
+}
+
+.line{
+position: absolute;
+width: 97%;
+height: 0px;
+left: 10px;
+top: 75px;
+
+border: 0.5px solid rgba(68, 68, 68, 0.3);
+}
+
+.lineError{
+position: absolute;
+width: 97%;
+height: 0px;
+left: 10px;
+top: 75px;
+
+border: 2px solid rgba(243, 10, 10, 0.863);
+}
+}
+}
+
+

@@ -1,0 +1,24 @@
+
+.formSchudele{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+.schudele{
+h2{
+text-align: center;
+padding: 20px;
+}
+.dateTime{
+margin-bottom: 20px !important;
+  }
+ }
+}
+
+.react-datepicker {
+width: max-content;
+}
+
+.react-datepicker__current-month {
+text-transform: capitalize;
+}

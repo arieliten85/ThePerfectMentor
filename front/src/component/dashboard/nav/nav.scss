@@ -1,0 +1,43 @@
+.navBar{
+position: fixed;
+bottom: 0;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height: 82px;
+
+background: #444444;
+mix-blend-mode: normal;
+border-radius: 40px 40px 0px 0px;
+z-index: 1;
+
+img{
+display: none;
+}
+
+.item{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+.icon{
+width: 20px;
+height: 21px;
+color: #BFD732;
+cursor: pointer;
+}
+
+p{
+display: none;
+ }
+}
+
+.item:hover{
+background: #444444;
+color: #BFD732;
+ }
+}

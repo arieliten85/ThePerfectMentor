@@ -1,0 +1,226 @@
+.card{
+
+padding: 7px;
+padding-left: 20px;
+position: relative;
+height: 100%;
+mix-blend-mode: normal;
+border-radius: 20px;
+margin-bottom: 8px;
+
+.picker{
+background: #E61587 !important
+} 
+
+p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: bolder;
+font-size: 14px;
+line-height: 21px;
+color: #312f2f;
+mix-blend-mode: normal;
+span{
+font-weight: 300;
+ }
+}
+
+.lineItem{
+position: absolute;
+width: 4px;
+height: 60px;
+left: 0px;
+top: 25%;
+background: #aec52c !important;
+border-radius: 0px 10px 10px 0px;
+}
+
+.status{
+position: absolute;
+top: 10px;
+right: 28px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+padding: 10px;
+width: 85px;
+height: 20px;
+mix-blend-mode: normal;
+border-radius: 40px;
+
+.point{
+
+position: relative;
+left: 5px;
+width: 6px;
+height: 6px;
+border-radius: 50%;
+ }
+}
+.statusOnline{
+position: absolute;
+top: 10px;
+right:35px;
+
+.on{
+padding: 3px;
+border-radius: 30px;
+width: 85px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(39, 201, 39);
+letter-spacing: 2.5px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #fff;
+text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px #0fa,
+}
+
+.off{
+padding: 3px;
+border-radius: 30px;
+width: 85px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(248, 177, 12);
+letter-spacing: 2.5px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #fff;
+text-shadow:
+0 0 7px rgb(179, 169, 169),
+0 0 10px #fff,
+0 0 21px #fff,
+
+ }
+}
+
+.cardVerified{
+background: rgba(57, 181, 74, 0.1);
+}
+.cardUnverifed{
+background: rgba(230, 21, 135, 0.1);
+}
+
+.crud{
+position: absolute;
+top: 50px;
+right: 29px;
+display: flex;
+gap: 5px;
+.item-icon{
+background: #FFFFFF;
+border-radius: 50px;
+border: 1px solid rgba(68, 68, 68, 0.25);
+display: flex;
+
+.edit{
+font-size: 15px;
+margin: 5px;
+color: rgb(98, 97, 68);
+
+}
+.delete{
+font-size: 15px;
+margin: 5px;
+color:  rgba(94, 39, 29, 0.83);
+cursor: pointer;
+}
+
+.calendar{
+font-size: 15px;
+margin: 5px;
+color:  rgb(20, 98, 188);
+}
+
+.notification{
+font-size: 15px;
+margin: 5px;
+color:  rgb(20, 98, 188);
+}
+
+.seg_notas{
+font-size: 15px;
+margin: 5px;
+color:  rgb(20, 98, 188);
+  }
+ }
+}
+
+.text-count-list{
+position: relative;
+}
+
+.box-list{
+position: absolute;
+top: 0px;
+left: 130px;
+display: flex;
+gap: 5px;
+
+.icon-list{
+font-size: 15px;
+color: rgb(233, 225, 225);
+}
+
+ul{
+position: absolute;
+top: 30px;
+left: 0;
+
+width: 200px;
+}
+ }
+}
+
+//CRUD COLORS
+.yellowCard{
+background: rgba(249, 246, 241, 0.99) !important;
+}
+.redCard{
+background: rgb(255, 120, 94) !important;
+}
+
+//Bg Card
+.green-back{
+background: rgba(57, 181, 74, 0.1) !important;
+}
+.red-back{
+background: rgba(230, 21, 135, 0.1);
+}
+
+// Item Card
+.green-item{
+background: #39B54A;
+}
+.red-item{
+background: #E61587;  
+}
+
+// Status 
+.green-status{
+background: rgba(57, 181, 74, 0.2);
+color:  #39B54A;;
+}
+.red-status{
+background: rgba(230, 21, 135, 0.2);
+color: #E61587; ;
+}
+
+
+
