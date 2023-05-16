@@ -36,7 +36,7 @@
   },
   "scripts": {
     "server": "nodemon server.js",
-    "test": "cross-env NODE_ENV=test jest --testTimeout=5000",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=5000  --forceExit",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
