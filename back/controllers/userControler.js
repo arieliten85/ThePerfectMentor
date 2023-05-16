@@ -20,6 +20,7 @@ class UserControler {
 
     try {
       const users = await User.paginate( options,{limit , page})
+      console.log("REQUEST"+ users.body)
 
     if(!users){
      return res.status(400).send("Page not found")

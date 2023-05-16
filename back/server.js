@@ -4,7 +4,9 @@ const appRoutes = require("./routes");
 const volleyball = require("volleyball");
 
 require("dotenv").config();
-require("./config/db");
+//require("./config/db");
+
+const db = require("./config/db");
 
 const cors = require('cors');
 var corsOptions = {
@@ -18,6 +20,10 @@ app.use(express.static("./public"))
 app.use(express.json());
 app.use(volleyball);
 app.use("/api", appRoutes);
+
+// app.get("/task", (req, res) => {
+//   res.json({ message: "Welcome to Blog API!" });
+// });
 app.use("/public",express.static(`${__dirname}/uploads`))
 
 
@@ -27,6 +33,7 @@ const servidor = app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
 
+module.exports = servidor
 
 
 // SOCKET.IO CONFIG
